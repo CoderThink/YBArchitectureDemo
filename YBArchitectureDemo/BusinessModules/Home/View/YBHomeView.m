@@ -6,6 +6,13 @@
 //  Copyright © 2018 杨波. All rights reserved.
 //
 
+/*
+ - GeneralModules 放项目独有的通用配置模块（比如通用颜色模块、通用字体模块）
+ - ToolModules 放工具类模块（比如系统信息模块）
+ - PackageModules 放基于业务的一些封装（比如提示框模块、加载菊花模块）
+ - BusinessModules 放业务模块（比如购物车、个人中心）
+ */
+
 #import "YBHomeView.h"
 #import "YBHomeListCell.h"
 
