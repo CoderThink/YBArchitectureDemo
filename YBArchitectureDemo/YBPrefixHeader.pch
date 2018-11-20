@@ -1,0 +1,28 @@
+//
+//  YBPrefixHeader.pch
+//  YBArchitectureDemo
+//
+//  Created by 杨波 on 2018/11/18.
+//  Copyright © 2018 杨波. All rights reserved.
+//
+
+#ifndef YBPrefixHeader_pch
+#define YBPrefixHeader_pch
+
+//三方库
+#import <Masonry/Masonry.h>
+
+//GeneralModules
+#import "YBGeneralColor.h"
+#import "YBGeneralFont.h"
+#import "YBNotificationManager.h"
+#import "UIScrollView+YBGeneral.h"
+#import "UITableView+YBGeneral.h"
+#import "UICollectionView+YBGeneral.h"
+
+//ToolModules
+#import "YBToolMacro.h"
+#import "YBSystemTool.h"
+#import "YBFrameTool.h"
+
+#endif /* YBPrefixHeader_pch */
